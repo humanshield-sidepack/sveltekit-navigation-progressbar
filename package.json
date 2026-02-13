@@ -1,6 +1,21 @@
 {
 	"name": "sveltekit-navigation-progressbar",
-	"version": "1.0.0",
+	"version": "1.0.1",
+	"description": "A SvelteKit package that provides a customizable progress bar to indicate page navigation progress.",
+	"author": {
+		"name": "Rachid Boudjelida",
+		"email": "rachid@dailycode.dev",
+		"url": "https://rachidboudjelida.com"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/humanshield-sidepack/sveltekit-navigation-progressbar.git"
+	},
+	"homepage": "https://rachidboudjelida.com/open-source/sveltekit-navigation-progressbar",
+	"bugs": {
+		"url": "https://github.com/humanshield-sidepack/sveltekit-navigation-progressbar/issues"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -64,7 +79,10 @@
 		"vitest-browser-svelte": "^2.0.2"
 	},
 	"keywords": [
-		"svelte"
+		"svelte",
+		"sveltekit",
+		"progressbar",
+		"navigation"
 	],
 	"lint-staged": {
 		"*.{js,ts,svelte}": [
